@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4c752562-577d-4845-9d82-255e6b466e36</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SimpleRegression.py</StartupFile>
+    <StartupFile>LinearRegression2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,9 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SimpleRegression.py" />
+    <Compile Include="LinearRegression2.py" />
+    <Compile Include="LinearRegression.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Eeg classifiers accuracy vs architecture relationship - FFT2.csv" />
     <Content Include="Eeg classifiers accuracy vs architecture relationship.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

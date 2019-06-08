@@ -20,7 +20,7 @@ if __name__ == '__main__':
     est2 = est.fit()
     
     print(est2.summary())
-    sns.regplot(x='Hidden_nodes', y='Accuracy', data=df)
+    sns.regplot(x='HiddenNodes', y='Accuracy', data=df)
     plt.show()
     sns.regplot(x='Iterations', y='Accuracy', data=df)
     plt.show()
