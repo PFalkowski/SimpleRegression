@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4c752562-577d-4845-9d82-255e6b466e36</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LinearRegression2.py</StartupFile>
+    <StartupFile>LinearRegressionFreqDomain.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LinearRegression2.py" />
-    <Compile Include="LinearRegression.py" />
+    <Compile Include="LinearRegressionFreqDomain.py" />
+    <Compile Include="LinearRegressionTimeDomain.py" />
+    <Compile Include="PolynomialRegressionTimeDomain.py" />
+    <Compile Include="PolynomialRegressionFreqDomain.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Eeg classifiers accuracy vs architecture relationship - FFT2.csv" />

@@ -11,7 +11,7 @@ import seaborn as sns
 
 if __name__ == '__main__':
     df = pd.read_csv('Eeg classifiers accuracy vs architecture relationship - FFT2.csv')
-    x = df.drop(['Accuracy', 'Precision', 'Recall', 'F-Score', 'AUC', 'Condition', 'LossFunction', 'AverageLogLoss', 'TrainingLogLoss', 'SplitPerSession', 'Features' ], axis=1)
+    x = df.drop(['Accuracy', 'Precision', 'Recall', 'F-Score', 'AUC', 'Condition', 'LossFunction', 'AverageLogLoss', 'TrainingLogLoss', 'SplitPerSession' ], axis=1)
     y = df[['Accuracy']]
 
     X2 = sm.add_constant(x)
